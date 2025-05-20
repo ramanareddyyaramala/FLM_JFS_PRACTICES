@@ -1,0 +1,12 @@
+package com.inheritance.hybrid;
+
+public class Test {
+
+	
+		public static void main(String[] args) {
+			ClassA classA=new ClassB();
+			classA.m1();
+			classA.m2();
+		}
+		
+}

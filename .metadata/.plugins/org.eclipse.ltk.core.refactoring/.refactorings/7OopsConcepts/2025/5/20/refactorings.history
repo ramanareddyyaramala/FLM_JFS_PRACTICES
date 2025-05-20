@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.inheritance.constructorcreationforsuperclass&apos; to &apos;Constructors/src&apos;&#x0D;&#x0A;- Original project: &apos;7OopsConcepts&apos;&#x0D;&#x0A;- Destination element: &apos;Constructors/src&apos;&#x0D;&#x0A;- Original element: &apos;7OopsConcepts/Inheritance/com.inheritance.constructorcreationforsuperclass&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Constructors/src" element1="/Inheritance&lt;com.inheritance.constructorcreationforsuperclass" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1747416727751" version="1.0"/>
+</session>

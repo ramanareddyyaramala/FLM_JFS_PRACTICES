@@ -1,0 +1,25 @@
+package com.interfaces;
+
+public class Airtel implements Trai{
+
+	@Override
+	public void recharge() {
+		System.out.println("100 rs 1GB Data");
+	}
+
+	@Override
+	public void messages() {
+		System.out.println("100 sms");
+	}
+
+	@Override
+	public void calls() {
+		System.out.println("Calls at1 p/sec");
+	}
+
+	@Override
+	public void internet() {
+		System.out.println("2G ");
+	}
+
+}

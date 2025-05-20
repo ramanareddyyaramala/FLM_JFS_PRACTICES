@@ -1,0 +1,18 @@
+package com.inheritance.hybrid;
+
+public class ClassA implements InterfaceA,InterfaceB{
+
+	@Override
+	public void m2() {
+		System.out.println("m2 method from the InterfaceB impl from classA");
+	}
+	
+
+	@Override
+	public void m1() {
+		
+		System.out.println("m1 method from the InterfaceA and InterfaceB impl from classA");
+		
+	}
+
+}

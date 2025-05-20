@@ -1,0 +1,38 @@
+package com.ArraysBasic;
+
+import java.util.Arrays;
+
+public class _5LeftRotateArrayByOnePlace {
+		
+	public static int[] getRotateArray(int arr[],int k) {
+		int len=arr.length,inc=0;
+		int arrNew[]=new int[len];
+		
+		/*
+		 * for(int i=k;i<len;i++) { arrNew[i]=arr[i-k];
+		 * 
+		 * if(inc<k) { arrNew[(inc++)]=arr[len-k+inc-1];
+		 * 
+		 * }
+		 */
+		//	
+		
+		 k=k%len;
+		 for(int i=0;i<len;i++) {
+			 
+			 arrNew[(i+k)%len]=arr[i];
+		
+		
+		}
+		return arrNew;
+	}
+	
+	public static void main(String[] args) {
+		int arr[]= {1,2,3,4,5,6,7};
+		int k=3;
+		
+		int res[]=getRotateArray(arr, k);
+		
+		System.out.println(Arrays.toString(res));
+	}
+}

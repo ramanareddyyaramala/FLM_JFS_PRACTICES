@@ -1,0 +1,8 @@
+package com.defaultmodifier;
+
+public class DefaultClassB {
+		
+	public static void main(String[] args) {
+		
+	}
+}

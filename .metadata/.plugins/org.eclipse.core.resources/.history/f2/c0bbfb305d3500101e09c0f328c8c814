@@ -1,0 +1,31 @@
+package com.sortingtechniques;
+
+import java.util.Arrays;
+
+public class BubbleSort {
+	
+	static int[] getBubbleSort(int arr[]) {
+		int len=arr.length;
+		
+		for(int i=0;i<len-1;i++) {
+			
+			for(int j=0;j<len-i-1;j++) {
+				if(arr[j]>arr[j+1]) {
+					int temp=arr[j+1];
+					arr[j+1]=arr[j];
+					arr[j]=temp;
+				}
+			}
+		}
+		return arr;
+	}
+	
+	public static void main(String[] args) {
+		int arr[]= {6,5,4,3,2,1};
+		
+		int[] resArray=getBubbleSort(arr);
+		
+		System.out.println(Arrays.toString(resArray));
+	}
+	
+}

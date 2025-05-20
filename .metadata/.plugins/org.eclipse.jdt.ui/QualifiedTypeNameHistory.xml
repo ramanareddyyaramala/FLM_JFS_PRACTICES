@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="int"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.inheritance.singlelevel.Dog"/>
+    <fullyQualifiedTypeName name="com.inheritance.singlelevel.Animal"/>
+    <fullyQualifiedTypeName name="com.inheritance.multilevel.Dog"/>
+    <fullyQualifiedTypeName name="com.inheritance.multilevel.Puppy"/>
+    <fullyQualifiedTypeName name="com.inheritance.hierarchical.Dog"/>
+    <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+    <fullyQualifiedTypeName name="com.protectedmodifier.ClassA"/>
+    <fullyQualifiedTypeName name="com.defaultmodifier.DefaultClassA"/>
+    <fullyQualifiedTypeName name="com.encapsulation.Student"/>
+    <fullyQualifiedTypeName name="com.inheritance.multiple.Child"/>
+    <fullyQualifiedTypeName name="com.inheritance.hybrid.InterfaceA"/>
+    <fullyQualifiedTypeName name="com.inheritance.hybrid.InterfaceB"/>
+    <fullyQualifiedTypeName name="com.inheritance.hybrid.ClassA"/>
+</qualifiedTypeNameHistroy>

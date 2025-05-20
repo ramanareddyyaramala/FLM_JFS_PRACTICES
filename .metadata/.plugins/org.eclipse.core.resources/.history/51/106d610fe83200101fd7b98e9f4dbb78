@@ -1,0 +1,20 @@
+package com.privatemodifier;
+
+public class Class1 {
+		
+	private String name="ramanareddy";
+	public int age=24;
+	
+	public Class1() {
+		System.out.println("Non Parameterized Constructor");
+	}
+	
+	private Class1(String name,int age) {
+		this.name=name;
+		this.age=age;
+	}
+	
+	private void getData() {
+		System.out.println(name+"---"+age);
+	}
+}

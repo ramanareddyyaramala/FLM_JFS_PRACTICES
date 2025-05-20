@@ -1,0 +1,31 @@
+package com.inheritance.hierarchical;
+
+public class Test {
+		public static void main(String[] args) {
+			Animal animal=new Animal();
+			animal.eat();
+			Animal dog=new Dog();
+			dog.eat();
+			Dog dog1=new Dog();
+			dog1.bark();
+			dog.eat();
+			
+			Animal animal1=new Cat();
+			animal1.eat();
+			Cat cat=new Cat();
+			cat.meow();
+			
+/* What you can access
+You can only access methods defined in the Animal class, even though the actual object is of type Dog.
+
+Why? Because:
+
+The reference type (Animal) determines what methods are accessible at compile time.
+
+The actual object type (Dog) determines which implementation is executed at runtime (if overridden).
+
+			 * 
+			 * */
+			
+		}
+}

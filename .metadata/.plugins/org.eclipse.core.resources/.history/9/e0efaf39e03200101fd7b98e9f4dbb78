@@ -1,0 +1,7 @@
+package com.privatemodifier;
+
+public class Class1 {
+		
+	private String name="ramanareddy";
+	private int age=24;
+}

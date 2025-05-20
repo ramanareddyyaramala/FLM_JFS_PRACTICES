@@ -1,0 +1,29 @@
+package com.inheritance.hierarchical;
+
+public class Animal {
+	
+	
+	    void eat() {
+	        System.out.println("Eating...");
+	    }
+	}
+
+	class Dog extends Animal {
+	    void bark() {
+	        System.out.println("Barking...");
+	    }
+	    void eat() {
+	        System.out.println("Dog Eating...");
+	    }
+	}
+
+	class Cat extends Animal {
+		void eat() {
+	        System.out.println("Cat Eating...");
+	    }
+	    void meow() {
+	        System.out.println("Meowing...");
+	    }
+	}
+
+

@@ -1,0 +1,34 @@
+package com.sortingtechniques;
+
+import java.util.Arrays;
+
+public class SelectionSort {
+	
+	static int[] selectionSort(int arr[]) {
+		
+		int len=arr.length;
+		
+		for(int i=0;i<len-2;i++) {
+			int min=i;
+			
+			for(int j=i;j<len;j++) {
+				if(arr[j]<arr[min]) {
+					min=j;
+				}
+			
+			int temp=arr[min];
+			arr[min]=arr[i];
+			arr[i]=temp;
+				
+			}
+		}
+		return arr;
+	}
+	
+	public static void main(String[] args) {
+		int arr[]= {13,46,52,24,20,9};
+		int resArray[]=selectionSort(arr);
+		System.out.println(Arrays.toString(resArray));
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.inheritance.hybrid;
+
+public class ClassB extends ClassA{
+	
+		public void m1() {
+			System.out.println("This is having impl of class B");
+		}
+}

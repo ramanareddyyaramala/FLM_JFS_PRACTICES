@@ -1,0 +1,27 @@
+package com.interfaces;
+
+public class Jio implements Trai {
+
+	@Override
+	public void recharge() {
+		System.out.println("150/month");
+	}
+
+	@Override
+	public void messages() {
+		System.out.println("unlimited messages");
+	}
+
+	@Override
+	public void calls() {
+		
+		System.out.println("unlimited calls");
+	}
+
+	@Override
+	public void internet() {
+		
+		System.out.println("4G");
+	}
+
+}

@@ -1,0 +1,53 @@
+package com.ArraysBasic;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
+public class _4RemoveDupilicatesFromSortedArray {
+		
+		public static int removeDupilicatesArray(int arr[]) {
+			int len=arr.length;
+			
+			/*
+			 * Set<Integer> set=new HashSet<>();
+			 * 
+			 * 
+			 * for(int i=0;i<len;i++) { set.add(arr[i]); }
+			 * 
+			 * int n=set.size();
+			 * 
+			 * int arrNew[]=new int[n]; int indexNweArr=0; for(int s:set) {
+			 * arrNew[indexNweArr++]=s; }
+			 */
+			
+			int i=0;
+			
+			for(int j=1;j<len;j++) {
+				if(arr[i]!=arr[j]) {
+					arr[i+1]=arr[j];
+					
+					i++;
+				}
+			}
+			int arrNew[]=new int[i+1];
+			
+			for(int k=0;k<arrNew.length;k++) {
+				arrNew[k]=arr[k];
+			}
+			
+			System.out.println(Arrays.toString(arrNew));
+			
+			
+		return i+1;	
+		}
+		
+		public static void main(String[] args) {
+			int arr[]= {0,0,1,1,1,2,2,3,3,4};
+			int res=removeDupilicatesArray(arr);
+			
+		System.out.println(res);
+			
+			
+		}
+}

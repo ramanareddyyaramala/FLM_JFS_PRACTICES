@@ -1,0 +1,26 @@
+package com.ArraysBasic;
+
+public class _5LeftRotateArrayByOnePlace {
+		
+	public static int[] getRotateArray(int arr[],int k) {
+		int len=arr.length;
+		int arrNew[]=new int[len];
+		
+		for(int i=k-1;i<len;i++) {
+			arrNew[i-k-1]=arr[i];
+			arrNew[i--]=arr[i];
+		}
+		return arrNew;
+	}
+	
+	public static void main(String[] args) {
+		int arr[]= {1,2,3,4,5,6,7};
+		int k=3;
+		
+		int res[]=getRotateArray(arr, k);
+		
+		for(int r:res) {
+			System.out.print(r+" ");
+		}
+	}
+}

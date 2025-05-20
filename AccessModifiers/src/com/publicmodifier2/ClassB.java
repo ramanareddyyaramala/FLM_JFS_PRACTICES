@@ -1,0 +1,15 @@
+package com.publicmodifier2;
+
+import com.publicmodifier.ClassA;
+
+public class ClassB {
+	
+	private static String message;
+
+	public static void main(String[] args) {
+		ClassA classA=new ClassA();
+		classA.showMessage();
+		System.out.println(classA.message);
+	}
+
+}

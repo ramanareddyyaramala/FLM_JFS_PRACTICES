@@ -1,0 +1,6 @@
+package com.protectedmodifier;
+
+public class ClassA {
+		
+	protected String name="Ramanareddy";
+}

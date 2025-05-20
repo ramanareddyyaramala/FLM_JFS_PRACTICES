@@ -1,0 +1,22 @@
+package com.inheritance.multilevel;
+
+ class Test {
+	 	public static void main(String[] args) {
+		
+	 		Animal animal=new Dog();
+	 		animal.eat();
+	 		
+	 		Dog dog=new Dog();
+			dog.eat();
+			dog.bark();
+			
+			Animal puppy=new Puppy();
+			puppy.eat();
+		//	puppy.weep(); Not accessible
+		//	puppy.bark(); Not accessible
+			Puppy p=new Puppy();
+			p.weep();
+			p.eat();
+			p.bark();
+		}
+}
