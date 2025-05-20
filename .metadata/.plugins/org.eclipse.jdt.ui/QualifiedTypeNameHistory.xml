@@ -15,4 +15,9 @@
     <fullyQualifiedTypeName name="com.inheritance.hybrid.InterfaceA"/>
     <fullyQualifiedTypeName name="com.inheritance.hybrid.InterfaceB"/>
     <fullyQualifiedTypeName name="com.inheritance.hybrid.ClassA"/>
+    <fullyQualifiedTypeName name="com.hasaRelation.Employee"/>
+    <fullyQualifiedTypeName name="com.hasaRelation.Company"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
 </qualifiedTypeNameHistroy>
