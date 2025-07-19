@@ -1,8 +1,0 @@
-package com.inheritance.multiple;
-
-public class Test {
-	
-	public static void main(String[] args) {
-		
-	}
-}
